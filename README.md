@@ -20,5 +20,19 @@ Although that long string of text at the top of our documents hasn’t really hu
 
 ```html
 <!doctype html>
-
 ```
+
+## The `<html>` Element
+
+Next up in any HTML document is the `html` element, which has not changed significantly with HTML5. In our example, we’ve included the `lang` attribute with a value of `en`, which specifies that the document is in English. In XHTML-based syntax, you’d be required to include an xmlns attribute. In HTML5, this is no longer needed, and even the `lang` attribute is unnecessary for the document to validate or function correctly.
+
+So here’s what we have so far, including the closing `</html>` tag:
+
+```html
+<!doctype html>
+<html lang="en">
+
+</html>
+```
+
+## The `<head>` Element
