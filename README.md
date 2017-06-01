@@ -36,3 +36,19 @@ So here’s what we have so far, including the closing `</html>` tag:
 ```
 
 ## The `<head>` Element
+
+The next part of our page is the `<head>` section. The first line inside the `head` is the one that defines the character encoding for the document. This is another element that’s been simplified since XHTML and HTML4, and is an optional feature, but recommended. In the past, you may have written it like this:
+
+```html
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+```
+
+HTML5 improves on this by reducing the character encoding `<meta>` tag to the bare minimum:
+
+```html
+<meta charset="utf-8">
+```
+
+In nearly all cases, `utf-8` is the value you’ll be using in your documents. A full explanation of character encoding is beyond the scope of this chapter, and it probably won’t be that interesting to you, either. Nonetheless, if you want to delve a little deeper, you can read up on the topic on [W3C](https://www.w3.org/) or [WHATWG](https://whatwg.org/).
+
+Not completed -----------
